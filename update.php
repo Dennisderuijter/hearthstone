@@ -19,12 +19,15 @@ $request = $response->body;
 //             $card_set       = $value->cardSet;
 //             $player_class   = $value->playerClass;
 //             $cost           = $value->cost;
+//             $rarity         = $value->rarity;
+//             $type           = $value->type;
 //             $img            = $value->img;
 //             $img_gold       = $value->imgGold;
 //
-//             $query = $db->prepare("UPDATE all_cards SET cost=:cost WHERE id=:id");
+//             $query = $db->prepare("UPDATE all_cards SET rarity=:rarity, type=:type WHERE id=:id");
 //             $query->bindParam(':id', $id, PDO::PARAM_STR);
-//             $query->bindParam(':cost', $cost, PDO::PARAM_INT);
+//             $query->bindParam(':rarity', $rarity, PDO::PARAM_INT);
+//             $query->bindParam(':type', $type, PDO::PARAM_INT);
 //         	$query->execute();
 //         }
 //     }
