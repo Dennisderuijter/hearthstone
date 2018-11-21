@@ -1,5 +1,4 @@
-# Hearthstone
-Hearthstone API - PHP
+# Hearthstone API
 
 By requesting all data from the API, I was able to insert all json data to my database and use it for a filter system.
 
